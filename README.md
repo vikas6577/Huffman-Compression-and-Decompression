@@ -3,14 +3,14 @@
 Compression and Decompression:
 
 To compress a file, run the following commands:
-g++ -o compressing HuffCompress.cpp
-compressing <input_file_name>
+    g++ -o compressing HuffCompress.cpp
+    compressing <input_file_name>
 
 This will create a compressed file with the name <input_file_name>_compressed.bin.
 
 To decompress a file, run the following commands:
-g++ -o decompressing HuffDecompress.cpp
-decompressing <compressed_file_name>
+    g++ -o decompressing HuffDecompress.cpp
+    decompressing <compressed_file_name>
 
 This will create a decompressed file with the name <compressed_file_name>_decompressed.txt.
 
